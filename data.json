@@ -1019,156 +1019,3736 @@
   ],
   "abilities": [
     {
-      "ability": "Aquatic (or Amphibious)",
-      "desc": "This adversary may breathe underwater and never suffers movement penalties for traveling through water, but cannot survive on land. (You may remove \"cannot survive on land\" to make this \"Amphibious\" instead.)",
-      "ex": "Fish or sea-going creatures",
-      "power_level": {
-        "combat": 0,
-        "social": 0,
-        "general": 1
-      }
+        "ability": "...And I'm Always Right",
+        "desc": "May make a\u00a0Hard\u00a0Leadership check; if successful, allies within medium range may perform a second maneuver during their turn without suffering strain; this character may spend\u00a0\u2b9d to increase the damage of affected allies' attacks by an amount equal to the\u00a0\u2b9d spent; both of these effects last until the end of this character's next turn.",
+        "ex": "",
+        "power_level": {
+            "combat": "2",
+            "social": 0,
+            "general": "1"
+        }
     },
     {
-      "ability": "Flyer",
-      "desc": "This adversary can fly; see page 100 of the Genesys Core Rulebook.",
-      "ex": "Flying creatures",
-      "power_level": {
-        "combat": 0,
-        "social": 0,
-        "general": 1
-      }
+        "ability": "...They Pull You Back In",
+        "desc": "After calling in a favor, this character may make an opposed Coercion versus Discipline check; if successful the target still owes this character a favor; \udb88\udeb5 means the target now owes a favor of one magnitude great than before.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
     },
     {
-      "ability": "Ghostly",
-      "desc": "This adversary may move over or through terrain (including doors and walls) without penalty. Halve the damage dealt to this adversary before applying soak, unless the attack came from a magical or supernatural source such as a spell, a blessed weapon, or another spirit.",
-      "ex": "Ghosts, spirits, or ethereal beings",
-      "power_level": {
-        "combat": 2,
-        "social": 0,
-        "general": 1
-      }
+        "ability": "A Good Death",
+        "desc": "As an incidental, at the start of its turn a minion group that is engaged with an enemy may remove a member of its group as a casualty to add +6 damage to the minion group\u2019s attack in that turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
     },
     {
-      "ability": "Know Your Foe",
-      "desc": "If this adversary knows an opponent's (pick one facet) Motivation, when this adversary inflicts strain on the opponent, the opponent suffers 3 additional strain.",
-      "ex": "Sentient rivals and nemeses designed for social encounters",
-      "power_level": {
-        "combat": 0,
-        "social": 1,
-        "general": 0
-      }
+        "ability": "Addling Tune",
+        "desc": "Make an Average Verse check. If the check is successful, until the end of the character\u2019s next turn, all other characters within medium range must first suffer one strain before using the concentrate maneuver. This character can sustain this effect with the concentrate maneuver.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
     },
     {
-      "ability": "Loyal Followers",
-      "desc": "Once per round when this adversary is targeted by a combat check, they may choose one ally within short range, and the attack then targets the ally instead of this adversary.",
-      "ex": "Nemesis leaders with fanatical or devoted followers",
-      "power_level": {
-        "combat": 1,
-        "social": 0,
-        "general": 0
-      }
+        "ability": "Adversary Spellcasting X",
+        "desc": "The character may cast magic spells without incurring the strain (or wound, if Rival or Minion) a number of times per encounter equal to ranks in this ability.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 1
+        }
     },
     {
-      "ability": "Mechanical (or Undead)",
-      "desc": "This adversary does not need to breathe, eat, or drink, and can survive in a vacuum and underwater. They are immune to poisons and toxins.",
-      "ex": "Robots, drones, or undead adversaries",
-      "power_level": {
-        "combat": 0,
-        "social": 0,
-        "general": 2
-      }
+        "ability": "\u00c6mber Eater",
+        "desc": "After making a succesful Brawl combat check, may spend \udb88\udeb4\udb88\udeb4 or \udb88\udeb5 to devour 1 \u00c6mber the target possesses.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
     },
     {
-      "ability": "Mental Weakness",
-      "desc": "If an opponent knows the adversary's (pick one type) Motivation, when the opponent inflicts strain on the adversary, the adversary suffers 2 additional strain.",
-      "ex": "Any character with a pronounced character flaw",
-      "power_level": {
-        "combat": 0,
-        "social": -1,
-        "general": 0
-      }
+        "ability": "\u00c6mber Extractor",
+        "desc": "A character may make Hard Survival check to dig one \u00c6mber out of a destroyed tree and may spend \udb88\udeb5 to extra two \u00c6mber per \udb88\udeb5 spent this way.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
     },
     {
-      "ability": "Ominous Reputation",
-      "desc": "When an opponent targets this adversary with a check, the opponent suffers 2 strain.",
-      "ex": "Powerful nemeses with a fearsome reputation",
-      "power_level": {
-        "combat": 1,
-        "social": 2,
-        "general": 0
-      }
+        "ability": "\u00c6mber Fever",
+        "desc": "When this character makes or assists a check that involves \u00c6mber, they may spend \udb88\udeb4\udb88\udeb4 to add \udb88\udeb3\udb88\udeb1\udb88\udeb1 to the results.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
     },
     {
-      "ability": "One Step Ahead",
-      "desc": "Once per round, after an opponent performs an action or maneuver, you may spend one Story Point to have this adversary perform an action or maneuver as an out-of-turn incidental.",
-      "ex": "Powerful nemeses who combat the PCs alone",
-      "power_level": {
-        "combat": 2,
-        "social": 1,
-        "general": 0
-      }
+        "ability": "\u00c6mberbelly",
+        "desc": "The character may make a Hard Survival check to open up a freshly slain \u00c6mberdrake and remove two \u00c6mber per \udb88\udeb3 and five per \udb88\udeb5 spent from the check this way.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
     },
     {
-      "ability": "Pack Fighter",
-      "desc": "If this adversary makes a successful combat check, the next ally making a combat check against the same target during the same round adds \udb88\udeb4 \udb88\udeb4 to the results.",
-      "ex": "Creatures that fight in groups",
-      "power_level": {
-        "combat": 1,
-        "social": 0,
-        "general": 0
-      }
+        "ability": "\u00c6mber-Do",
+        "desc": "Once per encounter, may spend a Story Point before making a skill check to double this character\u2019s Brawn value and require 1 fewer \udb88\udeb4 to activate any item quality for that check.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
     },
     {
-      "ability": "Pounce",
-      "desc": "Once per turn, while at short range this adversary may perform the move maneuver to engage a target as an incidental.",
-      "ex": "Fast creatures that can leap or lunge at foes",
-      "power_level": {
-        "combat": 0,
-        "social": 0,
-        "general": 0
-      }
+        "ability": "\u00c6mberspines",
+        "desc": "A character may make a Hard Survival check to extract one \u00c6mber per \udb88\udeb3 and two \u00c6mber per \udb88\udeb5 spent from a freshly defeated snufflegator\u2019s spines.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
     },
     {
-      "ability": "Swarm",
-      "desc": "Halve the damage dealt to this adversary before applying soak, unless the attack has the Blast or Burn quality (regardless of whether the quality is activated).",
-      "ex": "A single profile representing a swarm of bugs or vermin",
-      "power_level": {
-        "combat": 1,
-        "social": 0,
-        "general": 0
-      }
+        "ability": "Aerial Thief",
+        "desc": "May spend \u26ef when making a check to determine Initiative to steal one randomly determined item of encumbrance 2 or less from the character who generated the least \u2738 on their check.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
     },
     {
-      "ability": "Tactical Direction",
-      "desc": "This adversary may spend a maneuver to direct one friendly minion group within medium range. That group may immediately perform a maneuver as an out-of-turn incidental or add \udb88\udeb8 to the next check they make.",
-      "ex": "Rivals and nemeses who lead or direct small groups",
-      "power_level": {
-        "combat": 0,
-        "social": 0,
-        "general": 0
-      }
+        "ability": "Aggressive Fighter",
+        "desc": "The character adds \udb88\udeb4 to combined checks they make to attack with two melee weapons.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
     },
     {
-      "ability": "Environmental Vulnerability",
-      "desc": "When exposed to extreme heat, cold, or another environmental effect (pick one), this adversary adds \udb88\udeb8 \udb88\udeb8 to all skill checks it makes.",
-      "ex": "Creatures adapted to living in certain climates",
-      "power_level": {
-        "combat": -1,
-        "social": -1,
-        "general": -1
-      }
+        "ability": "Airborne",
+        "desc": "Can fly; see page 100 of the Genesys Core Rulebook.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
     },
     {
-      "ability": "Terrifying",
-      "desc": "At the start of the encounter, all opponents must make a Hard (\udb88\udeb7 \udb88\udeb7 \udb88\udeb7) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy.",
-      "ex": "Large monsters, creatures, and individuals who are incredibly frightening",
-      "power_level": {
-        "combat": 1,
-        "social": 1,
-        "general": 1
-      }
+        "ability": "Airborne Expertise",
+        "desc": "May remove \udb88\udeb1\udb88\udeb1 from operating checks made to control an airship or other flying vehicle.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "All Seeing Eye",
+        "desc": "If this character has access to a server, increase the strength of all sentry ice on that server by 2.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Ambush Predator",
+        "desc": "When attacking a target that has not yet acted during the current encounter, this creature adds \udb88\udeb8\udb88\udeb8 to its combat checks.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Amorphous",
+        "desc": "As an incidental, this character may increase or decrease its silhouette by 1.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Amphibious",
+        "desc": "This creature may breathe underwater and never suffers movement penalties for traveling through water.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Ancestral Gaze",
+        "desc": "While within short range of another adversary of this kind, this character adds \udb88\udeb3 to their combat checks and \udb88\udeb5 if the opponent is a dragon.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "And Just Like That...",
+        "desc": "May spend \udb88\udeb1\udb88\udeb1\udb88\udeb1 or \udb88\udeb2 from checks made by enemy characters in the current encounter to hide or blend into the crowd; enemies must make a successful opposed Perception or Vigilance versus Stealth check to locate this character until they make a combat check or otherwise reveal themselves.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "And Stay Down",
+        "desc": "When making a Brawl or Melee combat check targeting a prone opponent, add \udb88\udeb3\udb88\udeb4\udb88\udeb4 to the results.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Animal Adversary",
+        "desc": "\udb88\udeb2 may be spent on a failed check this character makes during a turn in which they direct their animal companion to have the companion make a combat check as an out-of-turn incidental targeting this character; \udb88\udeb5 may be spent on this combat check to also have the animal run away.",
+        "ex": "",
+        "power_level": {
+            "combat": "\u20131",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Annoying",
+        "desc": "Adds \udb88\udeb8 to Coercion checks.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": "\u20131",
+            "general": 0
+        }
+    },
+    {
+        "ability": "Apex Predator",
+        "desc": "At the start of their first turn in the encounter, all opponents must make a Hard Discipline check as an out-of-turn incidental. If they fail, they are immobilized until the start of their next turn instead. If you\u2019re using the fear rules (see GCRB page 243), this counts as a fear check, and other effects may apply as well.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Apparent Precognition",
+        "desc": "Once per encounter when making a combat check, may use Discipline and Willpower instead of the normal skill and characteristic.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Aquatic",
+        "desc": "Suffers no penalties for moving through water and can breathe underwater, but cannot move or survive on land.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Arboreal",
+        "desc": "This character treats foliage as clear terrain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Arcane Weakness",
+        "desc": "Silver, blessed, or holy weapons and ammunition count their Crit rating as 1 when used against this character.",
+        "ex": "",
+        "power_level": {
+            "combat": "\u20131",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Arterial Strike",
+        "desc": "When this character inflicts a Critical Injury with a Melee combat check, spend a Story Point to inflict the Bleeding Out Critical Injury in-stead of rolling a result.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Bad Rep",
+        "desc": "When another character fails a check targeting this character, that character suffers 2 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Been There, Done That",
+        "desc": "When providing assistance, this character adds \udb88\udeb3\udb88\udeb4 to the results instead of a \udb88\udeb8.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Belief through Power",
+        "desc": "Whenever an ally within short range makes a successful combat check, other allies in the encounter recover 2 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Bestial Rage",
+        "desc": "Once this character or minion group has taken damage, reduce the Critical rating of its attacks to 1.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Better to Be Feared",
+        "desc": "May spend \udb88\udeb1\udb88\udeb1 from an opponent\u2019s check to give the opponent the Fear (this character) Motivation until the end of the session in addition to their other motivations. This character always knows when other characters have the Fear (this character) Motivation.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Bioroid",
+        "desc": "This character does not need to breathe, eat, or drink; they can survive in vacuum and underwater; is immune to poisons and toxins; and cannot knowingly endanger humans.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 2
+        }
+    },
+    {
+        "ability": "Bite of the Wolf",
+        "desc": "When a feral lycanthrope in their animal form makes an unarmed attack and inflicts a Critical Injury result of 51 or higher on a human PC or human nemesis NPC [your GM has final say on what counts as human], the character gains the Bite of the Wolf and Call of the Moon abilities [if the target is a PC, use the abilities listed in the cursed shifter archetype found on page 20 instead]).",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Blend with the Wilds",
+        "desc": "In wilderness areas, this character gains defense 1.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Blood Call",
+        "desc": "When this character damages a target using fangs or a magic attack, they heal wounds equal to the wounds inflicted.",
+        "ex": "",
+        "power_level": {
+            "combat": 3,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Blood Frenzy",
+        "desc": "While at least on opponent in an encounter is suffering a Critical Injury, this character increases the base damage of its attacks by 2.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Blood Mist",
+        "desc": "If this character suffers damage in excess of their Wound Threshold, they are not incapacitated, but takes the form of a cloud of blood mist. While in this form, this character can fly (see page 100 of the Genesys Core Rulebook) and does not suffer damage from physical attacks. If they suffer additional damage from a magical attack, they become incapacitated as normal and resume corporeal form.",
+        "ex": "",
+        "power_level": {
+            "combat": 3,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Bloodthirst",
+        "desc": "When this character inflicts wounds with its fangs, it heals an equal number of wounds.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Bone Spurs",
+        "desc": "When this character is targeted by a melee combat check, they may spend \udb88\udeb1\udb88\udeb1\udb88\udeb1 or \udb88\udeb2 to cause the attack to suffer 3 wounds.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Bone-Chilling Roar",
+        "desc": "Once per encounter, may suffer 3 strain and spend a maneuver to force all other character within long range (or within earshot) to make a Daunting Discipline check as an out-of-turn incidental. If they fail, they must use their maneuver to move farther away; if they fail with \u2bd0, they must also downgrade their action to an additional maneuver to move even farther away. If you're using the fear rules found on page 243 of the Genesys Core Rulebook, this can be a fear check instead.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Boosted Intellect",
+        "desc": "May suffer 1 strain to add \udb88\udeb3 to any Intellect-based check.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Broken Nisei Conditioning",
+        "desc": "When this character inflicts a Critical Injury or Critical Hit, roll twice and choose the more severe result.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Brutal Training",
+        "desc": "When this character directs its mount, the mount may perform an action and a maneuver and is not limited to using its maneuvers to move only.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Burn It Down",
+        "desc": "This character adds \udb88\udeb4\udb88\udeb4 to the results of checks they make targeting authority figures.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Cage of Roots",
+        "desc": "Once per round after a character moves within medium range of this character, this character may perform an out-of-turn incidental to immobilize that character for the remainder of the encounter. The immobilized character can attempt a Hard Athletics check each turn to break from the immobilization.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Caissa Icebreaker Suite",
+        "desc": "When encountering ice, reduce that ice\u2019s strength by 2 and increase the \udb88\udeb1 required to activate negative effects by 1.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Calculating Hunter",
+        "desc": "This character may use their Intellect when opposing Deception, Skulduggery, and Stealth checks that target them.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Call of the Moon",
+        "desc": "When the full moon rises, this character transforms into a monstrous wolf or giant hunting cat as an out-of-turn incidental; they heal all strain they are currently suffering, increase their Brawn and Agility by one to a maximum of 5, and reduce their Intellect and Willpower by one to a minimum of 1; all opponents must halve the damage dealt to this character while transformed before applying soak, unless their weapon is made of silver or uses silver ammunition; the transformation lasts until the following dawn or until this character is incapacitated due to exceeding their wound threshold.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": "\u20131",
+            "general": 0
+        }
+    },
+    {
+        "ability": "Calm Center",
+        "desc": "This character may remove \udb88\udeb8 from Cool, Discipline, and Vigilance checks.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Camouflaged Scales",
+        "desc": "This character adds \udb88\udeb8\udb88\udeb8 to Stealth checks in [GM-specified] surroundings.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Can\u2019t Stop Experimenting!",
+        "desc": "While this character is present in an encounter, the GM may spend \udb88\udeb2 from any check to force all other characters to make a Hard Vigilance or Coordination check as an out-of-turn incidental; anyone who fails suffers 4 wounds and 4 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Catlike",
+        "desc": "This character may make a maneuver to move normally up and down vertical surfaces, across ropes, and over otherwise impassable structures.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Catlike Agility",
+        "desc": "Once per turn, this character may spend a Story Point to move to any location within short range as an incidental, including locations that are vertically distant or have no easy access route.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Causing Chaos",
+        "desc": "During a Network encounter, may spend an action to make a Hard Knowledge (The Net) check; if successful, opponents must upgrade the difficulty of checks made on the system for the rest of the encounter twice, and allies must upgrade the difficulty of checks made on the system for the rest of the encounter once.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Certain You Want To Do This?",
+        "desc": "When targeting this character with a check, a character suffers 1 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Challenge Accepted!",
+        "desc": "Once per session, this character may spend a Story Point to count as having 3 ranks in any skill they do not posses until the end of the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Charismatic Menace",
+        "desc": "Allies within short range add \udb88\udeb3 to checks they make; opponents within short range add \udb88\udeb1 to checks they make.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Chronal Absorbtion",
+        "desc": "For every round that passes in an encounter featuring this character, an hour passes outside of the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Claw Sweep",
+        "desc": "May spend \udb88\udeb4 from a Brawl combat check to hit an additional engaged opponent that would be no more difficult to attack than the original target, dealing base damage +1 per \udb88\udeb3.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Clockwork Fragility",
+        "desc": "If this character suffers a Critical Injury, add +20 to the result. ",
+        "ex": "",
+        "power_level": {
+            "combat": "\u20131",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Close Ranks",
+        "desc": "While within short range of another minion group of the same type, both groups gain 1 melee defense.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Cold Killer",
+        "desc": "Once per encounter when this character incapacitates a target, they may force all allies of the target to make an Average Discipline check as an out-of-turn incidental. If they fail, they lose their free maneuver during their next turn; if you\u2019re using the fear rules (page 243, CRB), this counts as a fear check and other effects may apply as well.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Colossal",
+        "desc": "Reduce any critical injury result suffered by 30, to a minimum of 1.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Combat Bioroid",
+        "desc": "This character does not need to breathe, eat, or drink; can survive in vacuum and underwater, and is immune to poisons and toxins.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 2
+        }
+    },
+    {
+        "ability": "Community Volunteer",
+        "desc": "This character may use Knowledge (Society) instead of Charm, Coercion, or Negotiation during social interactions with undercity residents.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Construct",
+        "desc": "Does not need to breathe, eat, or drink, and can survive in vacuum and underwater; immune to poisons and toxins.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 2
+        }
+    },
+    {
+        "ability": "Consuming Swarm",
+        "desc": "This character may spend a maneuver to make an opposed Coordination versus Coordination check targeting one engaged opponent to immobilize that opponent until the end of their next turn. At the start of their next turn, the opponent suffers 3 wounds, and the swarm heals 3 wounds.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Contingency Plan",
+        "desc": "During any encounter this character or their allies may spend a Story Point when an opponent would learn their location or identity instead.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Corporate Oversight",
+        "desc": "When performing the assist maneuver, this character adds \udb88\udeb3\udb88\udeb1\udb88\udeb1 to the result instead of adding \udb88\udeb8.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Corrupt \u00c6mber",
+        "desc": "This character may spend \udb88\udeb1\udb88\udeb1\udb88\udeb1 or \udb88\udeb2 from any Melee or Brawl check targeting them to corrupt 1 \u00c6mber the opponent carries (this essentially destroys the \u00c6mber, with other effects as determined by the GM).",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Creature of the (X)",
+        "desc": "This character reduces the difficulty of Arcana checks by one, to a minimum of Easy, and increases the base damage of their Attack spells by 3.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Critical Numbers",
+        "desc": "This characters adds \udb88\udeb4 to combat checks if there are two or more members in the minion group.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Cruel Empathy",
+        "desc": "When a character within short range makes a check that generates \udb88\udeb2, this character heals 1 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Crush",
+        "desc": "While engaged with a vehicle, this character may make a Hard Athletics check as an action; if the check is successful, the vehicle suffers a Critical Hit and may not move during the following round.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Crushing Bite",
+        "desc": "May spend \udb88\udeb5 from a successful Brawl check to increase the base damage of its jaw attack to 14.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Cursed to Wander",
+        "desc": "Cursed to Wander (Once they reach their wound threshold, a ghost must rest before manifesting in the world. If the attack that exceeded their wound threshold generated no \udb88\udeb4 or \udb88\udeb5, the ghost returns within moments. If the attack generated \udb88\udeb4 it can return sometime in the same scene, \udb88\udeb4\udb88\udeb4 can return in the next scene, or \udb88\udeb5 can return the following day)",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": "1",
+            "general": "1"
+        }
+    },
+    {
+        "ability": "Cyberbyte",
+        "desc": "After making a combat check, may spend \udb88\udeb5 to have the target suffer a hit dealing damage equal to the base damage of one powered weapon the target possesses of this character\u2019s choice.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Cybereyes",
+        "desc": "This character may see in infrared and may remove up to \udb88\udeb8\udb88\udeb8 added to this character\u2019s check due to darkness.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Dangerous Connections",
+        "desc": "This character may spend \udb88\udeb4\udb88\udeb4\udb88\udeb4 or \udb88\udeb5 from a social skill check they make targeting a PC to move one Story Point from the player pool to the GM pool.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Dark Sight",
+        "desc": "This character can see in the absence of light without penalty.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Dark Vision",
+        "desc": "When making skill checks, this character removes up to \udb88\udeb8\udb88\udeb8 imposed due to darkness.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Datasniffers",
+        "desc": "May spend \udb88\udeb1\udb88\udeb1\udb88\udeb1 or \udb88\udeb2 from any character\u2019s check to have this character learn their present location.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Dauntless",
+        "desc": "This character upgrades the ability of Discipline checks they make to resist fear or intimidation once.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Deadly Distraction",
+        "desc": "This character decreases the difficulty of combat checks it makes that target a character immobilized or staggered by its Irresistible Song by one.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Death Roll",
+        "desc": "When this character makes a successful Brawl combat check against an immobilized target, it may inflict a Critical Injury without spending \u2b9d or \u26ef; it may still spend \u2b9d\u2b9d\u2b9d or \u26ef to add +10 to the results.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Demonic",
+        "desc": "A demon is immune to poison and disease. A demon doubles its soak vs. non-magical attacks.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Destroy Terrain",
+        "desc": "When engaged with a silhouette 2 or smaller terrain feature that is providing cover or obstructs movement\u2014such as a section of fence, foxhole, door, or sandbagged emplacement\u2014this character may spend an action and make a Hard Mechanics check; if successful, the terrain feature is destroyed and no longer provides or obstructs movement.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Direct Access",
+        "desc": "When jacking in from within the same building as the target server, this character automatically succeeds when making any check to access the system.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 2
+        }
+    },
+    {
+        "ability": "Disperse!",
+        "desc": "Once per encounter, as an action, may force all non-allied characters within medium range to make an Average Discipline check as an out-of-turn incidental; those who fail must spend their next turn moving away from this character or minion group and attempting to leave the encounter if possible.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Dominate",
+        "desc": "May use the Dominate action once per encounter, making an opposed Charm vs. Discipline check targeting one character in short range; if successful, the target is immobilized for 1 round per uncanceled \udb88\udeb3, and this character may spend \udb88\udeb5 to stagger the target until the end of their next turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Draconic Heritage",
+        "desc": "This character reduces the damage they take from fire and similar sources by 3.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Drag",
+        "desc": "May use a maneuver to move a target affected by its thorny vines\u2019 Ensnare quality to engaged range.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Dragged to Doom",
+        "desc": "This character may spend a maneuver to pull an immobilized foe within short range to engaged range.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Drain Vigor",
+        "desc": "As an out-of-turn incidental, at the start of their turn, characters engaged with this character must make a Hard Resilience check or suffer 3 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Dreamwalker",
+        "desc": "Once per session, this character can spend a Story Point to either re-roll the dice pool after making a check, or to force a PC to re-roll the dice pool after they make a check.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Dubious of Authority",
+        "desc": "When targeted by a Coercion or Leadership check, this character may oppose this check with Deception and Cunning (instead of Discipline and Willpower).",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Early Warning",
+        "desc": "This character adds \udb88\udeb8 to its checks to determine Initiative.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Ease of the Wilds",
+        "desc": "When a character within short range of this character removes strain at the end of an encounter, that character and this character both remove 2 additional strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Ease Your Worries",
+        "desc": "Whenever allies at short range would suffer strain involuntarily, they suffer 2 less strain, to a minimum of 0.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Eating Time",
+        "desc": "As an action, may make an opposed survival versus Discipline check targeting one character at short range; if successful, this character may perform one additional maneuver during its turns for the remainder of the encounter without suffering strain (it still may only perform two maneuvers during its turn); the target loses its free maneuver during its turn for the remainder of the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Edutainment",
+        "desc": "When assisting or making a combined Knowledge check, add \udb88\udeb8 to the check.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Eight-legged",
+        "desc": "Cannot be knocked prone or immobilized.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Elemental Mastery",
+        "desc": "The first effect this character adds to a spell does not increase the difficulty of the Arcana check.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Elemental Runes",
+        "desc": "Each of these characters takes on different traits depending on its animating rune. Select one rune for each individual. Fire: add \udb88\udeb3\udb88\udeb3 to checks the this character makes to determine initiative. Ice: upgrade the difficulty of social skill checks targeting this character once. Lightning: this character may perform a second maneuver without suffering strain. Stone: this character\u2019s soak increases to 8. Other runes can be used at the GM\u2019s discretion.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Encumbrance Capacity X",
+        "desc": "Add X to this creature\u2019s encumbrance threshold.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Endless Dance",
+        "desc": "This character chooses one target within short range and makes an\u00a0Average\u00a0Primal check; upon success, the target is immobilized, suffers 1 strain and 1 wound at the start of their turn, and adds\u00a0\u25a0\u25a0 to all checks they make; on their turn, the target may make a\u00a0Daunting\u00a0Discipline or Resilience check to end these effects; can sustain the effects of this spell by performing the concentrate maneuver.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Enhanced Auto-Bracing",
+        "desc": "Using the Auto-fire quality does not increase the difficulty of combat checks; each time this character triggers an additional hit, they suffer 1 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Enhanced Healing",
+        "desc": "May suffer 1 strain before making a Resilience check to heal a Critical Injury to add \udb88\udeb3 to the result, and increases the number of wounds healed by natural rest by 1.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Enhanced Strength",
+        "desc": "This character may suffer 1 strain to add \udb88\udeb3 to Athletics or Brawl checks.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "ESW Drone Master",
+        "desc": "This character may control two rival drones or minion groups of up to 5 drone minions; may spend a maneuver to direct all controlled drones to perform an action and maneuver during their turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Evolutionary Niche",
+        "desc": "Before using this character, choose one of the following abilities: Arthropod: Has a thick exoskeleton and adds +2 to its soak value, Aquatic: Never treats water as difficult terrain and can breathe underwater, Arboreal: Treats vertical surfaces and forested areas as normal terrain, or Avian: May fly, as per page 100 of the Genesys Core Rulebook.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Expert Scrounger",
+        "desc": "While this character is present in an encounter, add \udb88\udeb8\udb88\udeb8 to checks friendly characters make to search an area.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Explains Things",
+        "desc": "Allies within short range add \udb88\udeb7 to Knowledge (\u00c6mber) checks they make.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Exploration Maven",
+        "desc": "While exploring (or telling stories of their explorations), whenever this character recovers strain, they remove 3 additional strain and friendly characters within short range suffer 1 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Exploratory Romp",
+        "desc": "This character may spend an action to make a Hard Computer (Hacking) check; if successful, this character and allies learn the identity of one piece of ice on a server per \udb88\udeb3. ",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Extreme G-modded Physique",
+        "desc": "Before making an Athletics, Brawl, Melee, or Resilience check, may suffer 1 strain to add \udb88\udeb3\udb88\udeb3 to the results.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Eye of the Jinn",
+        "desc": "This character chooses one target within medium range and makes an\u00a0Average Divine check; if the check is successful, until the end of this character's next turn, after the target makes a check, this character may choose one type of die in the pool and reroll all of the dice of that type; can sustain the effects of this spell by performing a concentrate maneuver.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Eyeless Sight",
+        "desc": "This character does not add \udb88\udeb8 to checks due to darkness or concealment, and is immune to abilities or Critical Injuries that affect a character\u2019s sight.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Fallen Figure of Faith",
+        "desc": "When making a social skill check to inflict strain, this character inflicts 2 strain per \udb88\udeb3 unless the target knows this character\u2019s Fear or Flaw motivations.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Famous",
+        "desc": "Once per encounter, may spend a Story Point to force one opponent within earshot to make a Hard Discipline check as an out-of-turn incidental. If they fail, they must fulfill one of this character\u2019s requests, such as letting them past a checkpoint, stop attacking them, etc.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Fatalistic Ferocity",
+        "desc": "This character adds \udb88\udeb3\udb88\udeb1 to any combat checks they make.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Feed on the Fallen",
+        "desc": "At the end of this character\u2019s turn, if at short range of one or more non-demon characters suffering Critical Injuries, may heal a number of wounds equal to the total number of Critical Injuries.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Feel the Agony",
+        "desc": "When targeted by a melee combat check, may spend \udb88\udeb1\udb88\udeb1 or \udb88\udeb2 from the results to cause the attack to suffer 4 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Feel the Pain",
+        "desc": "When targeted by a melee combat check, may spend \udb88\udeb1\udb88\udeb1 or \udb88\udeb2 from the results to cause the attacker to suffer 3 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Fire Bad",
+        "desc": "damage caused by fire ignores the troll's soak. Coercion checks made against a troll that are aided by fire gain \udb88\udeb8\udb88\udeb8",
+        "ex": "",
+        "power_level": {
+            "combat": "-1",
+            "social": "-1",
+            "general": "-1"
+        }
+    },
+    {
+        "ability": "Flameborn",
+        "desc": "This character does not suffer damage from natural heat or flame, and doubles its soak for purposes of reducing damage from magical fire.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Flattery Gets You Everywhere",
+        "desc": "If this character knows an opponent\u2019s Strength motivation, when this character inflicts strain on the opponent, the opponent suffers 3 additional strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Flush Target",
+        "desc": "After making a combat check targeting a character in cover, may spend \udb88\udeb4\udb88\udeb4 or \udb88\udeb5 to force the character to immediately move out of cover as an out-of-turn incidental.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Flyer",
+        "desc": "This character can fly. See the Flying sidebar on page 100 of the Genesys Core Rulebook.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Focus Fire",
+        "desc": "When making a combat check, add \udb88\udeb4 to the results for every other character in the minion group.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "For the Alliance!",
+        "desc": "When making a combat skill check, this character may spend \udb88\udeb4 to let an ally of the same organization immediately perform a maneuver as an out-of-turn incidental; this character may instead spend  \udb88\udeb4\udb88\udeb4\udb88\udeb4 or \udb88\udeb5 to let up to three crew members in the current encounter perform an immediate action as an out-of-turn incidental.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "For the Colony!",
+        "desc": "Once per round when targeted by a combat check, may choose one ally within short range; the attack then targets that character instead of this character.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "For the Pain",
+        "desc": "When a non-demon within short range suffers a Critical Injury, may spend a Story Point to replace the result with an Agonizing Wound.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Force of Justice",
+        "desc": "Characters within short range of this character add \udb88\udeb8 to their combat checks provided those characters are acting to uphold the law.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Forest Predator",
+        "desc": "When in a forest, this character may spend \udb88\udeb4\udb88\udeb4 from an Initiative check to make an immediate maneuver as an incidental.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Four-armed",
+        "desc": "This character may make a combined combat check with its weapons and fists without increasing the difficulty.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Fragmented Memories",
+        "desc": "Add \udb88\udebb\udb88\udebb to social skill checks targeting this character.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Frenzied Hunger",
+        "desc": "After making a successful combat check, may spend \udb88\udeb3\udb88\udeb3; after doing so, this character suffers 3 strain for each additional opponent hit.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Friends Help Friends",
+        "desc": "Once per encounter as an action, may select a target within short range and one ally within medium range; the ally can make one immediate combat check against the target as an out-of-turn incidental.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Friends in Spy Places",
+        "desc": "A character must suffer 2 strain in order to make a combat check targeting this character.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Full Weight of the Law",
+        "desc": "When making a Coercion check to inflict strain during a social encounter, this character inflicts 2 additional strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Fungal Form",
+        "desc": "Reduce any damage from hits targeting this character by 3 unless the Burn item quality has been activated as a part of the attack.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Ghostly A",
+        "desc": "May move over or through terrain (including doors and walls) without penalty. Halve the damage dealt to this character before applying soak, unless the attack came from a magical source such as a spell or magical weapon.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Ghostly B",
+        "desc": "This character ignores the effects of terrain and darkness.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Giant Stomp!",
+        "desc": "Brawl attacks that this character makes have a Critical rating of 3, and if they inflict critical injuries +40 is added to the resulting Critical Injury roll.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Glider",
+        "desc": "This character can fly, but cannot increase their altitude while doing so; see page 100 of the Genesys Core Rulebook.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Golden Goose",
+        "desc": "Opponents must make a Hard Discipline check as an action and succeed before being able to make combat checks targeting this character.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Good and Bad Cop",
+        "desc": "May spend \udb88\udeb4\udb88\udeb4 from Charm, Coercion, Deception, or Negotiation checks to upgrade the ability of an ally\u2019s social skill check targeting the same character once.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Good at Needling",
+        "desc": "If this character knows an opponent\u2019s Flaw Motivation, when this character inflicts strain on the opponent, the opponent suffers 4 additional strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Gore",
+        "desc": "After making a successful combat check using its vicious axe, this character may spend \udb88\udeb4\udb88\udeb4 or \u26ef to inflict one hit with its bloody horns on the target or another target this character is engaged with, dealing base damage +1 damage per \u2738.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Grapple",
+        "desc": "This character may take the Grapple incidental; until the start of this character\u2019s next turn, enemies must spend two maneuvers to disengage.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Graven Wards",
+        "desc": "Increase the difficulty of all spells that target this character twice.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Guild Member",
+        "desc": "When performing a check related to their specific guild, this character upgrades the ability of that check twice.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Handmade Weapons",
+        "desc": "When another character uses this character\u2019s weapon, it loses [Good] item quality and gains Inaccurate 3 and Unwieldy 5.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Haunting Melodies",
+        "desc": "This character may spend \udb88\udeb4 on a successful Charm check to inflict 1 strain on their target, and may do this multiple times.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Heart of Darkness",
+        "desc": "Once per session, spend a Story Point to have this character transform, no matter the circumstances; the transformation lasts until the following dawn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Heat Wave",
+        "desc": "At the start of their turn, characters engaged with this character suffer 2 strain unless they are immune to heat.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Here\u2019s a Tip",
+        "desc": "Other characters may spend \u26ef from social skill checks they make targeting this character to add \u25a0 to other social skill checks they make until the end of the session or until they leave this location.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Heroic Captain",
+        "desc": "May spend a Story Point to suffer 2 strain and add \udb88\udeb5 to the next combat or social skill check this character makes.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "High-Altitude Drop",
+        "desc": "When falling any distance, may make an Easy Discipline check as an incidental; on a success, this character does not suffer any damage from falling and lands on their feet.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Honor and Grit",
+        "desc": "When this character exceeds their wound threshold, they can immediately attempt a Hard Discipline check as an out-of-turn incidental, healing 1 wound per \udb88\udeb3; if this reduces their current wounds below their wound threshold, this character gets back on their feet to continue fighting.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Hoverer",
+        "desc": "May hover, as per Flying sidebar (page 100, CRB).",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Hybrid Physiology",
+        "desc": "In the wilds, does not need to make Survival checks to find acceptable food, water, or shelter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Hypnotic Gaze",
+        "desc": "This character may make an opposed Charm vs. Discipline check as an action targeting one character within short range. If successful, the target is immobilized for 1 round per \udb88\udeb3, and this character may spend \udb88\udeb5 to stagger the target for 1 round.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "I Know What You\u2019re Thinking",
+        "desc": "When targeting an opponent with a social skill check, downgrade the difficulty a number of times equal to the number of \udb88\udebb in the pool (effectively replacing all \udb88\udebb with \udb88\udeb7). When targeted by a social skill check, downgrade the ability of the check a number of times equal to the number of \udb88\udebb in the pool (effectively replacing all \udb88\udebb with \udb88\udeb7).",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "I\u2019ll Tell My Parents!",
+        "desc": "When this character inflicts strain using a social skill check, they inflict 2 additional strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Ice Madness",
+        "desc": "Upgrade the difficulty of social skill checks targeting this character once.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Immobile",
+        "desc": "Cannot spend maneuvers to move.",
+        "ex": "",
+        "power_level": {
+            "combat": "\u20131",
+            "social": 0,
+            "general": "\u20131"
+        }
+    },
+    {
+        "ability": "Impressively Flexible",
+        "desc": "May spend a Story Point to gain access to a formerly secure room or other location through a previously unnoticed vent shaft, slightly open window, or similar entry point.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Improved Sweep",
+        "desc": "This creature can spend :n^: on a successful Brawl check to hit an additional target that is Engaged with the first target.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "In the Know",
+        "desc": "Whenever this character learns a Motivation of another character in the encounter, this character may have that character suffer 2 strain and may heal 2 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Inconspicuous",
+        "desc": "While in a (specific environment), this character appears indistinguishable from (environmental element); a character can make a Hard Perception or Vigilance check to identify this character.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Informed",
+        "desc": "When providing assistance to friendly characters who are making a Knowledge, Skulduggery, or Streetwise check, this character adds \udb88\udeb3\udb88\udeb3\udb88\udeb1\udb88\udeb1 to the results of the check.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Inured",
+        "desc": "Add \u25a0 to social skill checks targeting this character.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Irresistible Song",
+        "desc": "As an action, this character may make an Average Charm check. If successful, all characters within long range who can hear this character\u2019s song suffer 1 strain per \udb88\udeb3. This character may spend \udb88\udeb4\udb88\udeb4 to immobilize one affected character until the end of the following round, and spend \udb88\udeb5 to stagger one affected character until the end of the following round. While a character is staggered by Irresistible Song, they must spend all of their maneuvers to move closer to this character.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Jack of All Trades",
+        "desc": "Once per session, may spend a Story Point to increase ranks in one skill by two for the remainder of the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Ka-boom!",
+        "desc": "May spend \udb88\udeb5 on a combat check to activate the Blast item quality and have the quality affect all characters within short range of the target.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Killing Frenzy",
+        "desc": "This character adds \udb88\udeb8\udb88\udeb8 to all melee combat checks, but attackers add \udb88\udeb8 to all combat checks targeting them.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "King of the (Adversary Type)!",
+        "desc": "Upgrade the difficulty of combat checks targeting this character once for each minion group of [adversary type] within short range of this character. If the check fails, one individual minion is defeated.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Knowledge is Dangerous",
+        "desc": "Adds \udb88\udeb3\udb88\udeb1 to the results of Knowledge (Science) checks other characters make in the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": "\u20131"
+        }
+    },
+    {
+        "ability": "Lawful Authority",
+        "desc": "Add \udb88\udeb3 to the results of any social skill checks made when interacting with residents of the local area.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Leading Question",
+        "desc": "Once per encounter, may spend a Story Point to learn one Motivation of any one other character in the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Let Me Get You Something",
+        "desc": "Once per encounter, this character may give another character 100 currency to downgrade the difficulty of the next social check they make targeting that character.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Let\u2019s Make a Deal",
+        "desc": "If this character knows an opponent\u2019s Desire Motivation, when this character inflicts strain on the opponent, the opponent suffers 4 additional strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Let\u2019s Open the Good Stuff",
+        "desc": "When assisting on a knowledge skill check, may add additional \udb88\udeb8\udb88\udeb8 to the check; if so, at the end of the encounter the character who made the check recovers 3 fewer strain (to a minimum of 0).",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Leverage Fame",
+        "desc": "After making a successful social skill check, this character heals 2 strain and may perform a second maneuver without spending strain (but cannot perform more than two maneuvers in their turn).",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Light Fingers",
+        "desc": "After making a melee combat check, may spend \udb88\udeb5 to steal one item of encumbrance 1 or less from the target.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Lightning Draw",
+        "desc": "May draw or sheathe a dagger or similar small weapon as an incidental; there is no limit to how many weapons this character can ready this way per turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Liquid Defenses",
+        "desc": "Halve the damage dealt to this character before applying soak, unless the weapon has the Blast or Burn quality (regardless of whether the quality is activated).",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Local Politics",
+        "desc": "Once per session, may choose one character operating in their area of influence (community, precinct, or county, for example); until the end of the session, the target must upgrade the difficulty of any social skill checks they make to interact with inhabitants of this area once.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Los Scorpiones Boss",
+        "desc": "May spend a maneuver to direct all allied characters in the current encounter; each may immediately perform a free maneuver or add \udb88\udeb3 to the results of their next check.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Loves the Heat",
+        "desc": "This character ignores penalties imposed by high temperatures and ignores damage inflicted by fire or fire-based attacks.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Lucky Escape",
+        "desc": "When this character would be defeated due to exceeding their wound threshold or strain threshold, or for any reason, they may spend a Story Point to instead escape in a suitably fortunate and cowardly fashion. All other adversaries in the encounter are immediately defeated.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Lunar Off-Roading",
+        "desc": "This character adds \udb88\udeb8\udb88\udeb8 to any Driving or Survival checks made on the lunar surface.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Many Hands Make Light the Load",
+        "desc": "If this character provides assistance when another character makes a Mechanics check to repair a vehicle, increase the hull trauma or system strain repaired by 2; if the check is being made to repair a Critical Hit, reduce the difficulty of the check by 1, to a minimum of Easy; this is in addition to the other benefits of assistance.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Martian Command",
+        "desc": "As a maneuver, may order up to three allied martians in the encounter to take an immediate out-of-turn maneuver, or to order one allied martian in the encounter to take an immediate out-of-turn action.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Master of the Lightning",
+        "desc": "Once per encounter, may make a\u00a0Hard\u00a0Knowledge (Science) check\u00a0as an action; if successful, one target within long range suffers 10 damage to their strain threshold (+1 damage per\u00a0\u2738) and a Critical Injury; may spend\u00a0\u2b9d\u2b9d or\u00a0\u26ef\u00a0to inflict the same damage and a Critical Injury on an additional target within long range.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Maul",
+        "desc": "Add \udb88\udeb8\udb88\udeb8 to Brawl checks against prone or immobilized targets.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Max Throttle",
+        "desc": "When piloting or driving a vehicle, its max speed is increased by 1.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Mechanical",
+        "desc": "This character does not need to breathe, eat, or drink; can survive in vacuum and underwater, and is immune to poisons and toxins.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 2
+        }
+    },
+    {
+        "ability": "Might Makes Right",
+        "desc": "After this character inflicts a Critical Injury, decrease the difficulty of all Coercion and Leadership checks they make by one, to a minimum of\u00a0Easy, until the end of the encounter; this ability may be triggered multiple times.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Mind Bleed",
+        "desc": "As an action, may make an Opposed Discipline vs. Discipline check against one living target within medium range. If successful, the target suffers 2 wounds and 2 strain per \udb88\udeb3, and this character may spend \udb88\udeb4\udb88\udeb4\udb88\udeb4\udb88\udeb4 or \udb88\udeb5 to inflict a Critical Injury.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Mischievous",
+        "desc": "As a maneuver, may distract one character at short range; that character adds \udb88\udeb8 to their next check for each member in this minion group.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Mob Mentality",
+        "desc": "Add \udb88\udeb8 to all checks this character makes if part of a group of three or more minions.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Momentum",
+        "desc": "If this character performed a move maneuver, they add 3 to the damage of one hit of any successful Brawl or Melee combat checks they make during the same turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Monstrous Limbs",
+        "desc": "This character does not increase the difficulty of combined checks to attack with its claws, tentacles, and jaws, and may spend \udb88\udeb4\udb88\udeb4 or \udb88\udeb5 to hit with each additional weapon.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Moonlit Glamor",
+        "desc": "During the night, this character\u2019s presence is 5 instead of its normal value.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Mount Bond",
+        "desc": "When this character directs their bound mount, the mount may perform an action and a maneuver and is not limited to using its maneuvers to move.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Mounted Charge",
+        "desc": "This character adds \udb88\udeb8\udb88\udeb8 to its first melee attack after performing a maneuver to engage the target in the same turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Multiattack",
+        "desc": "Does not need to increase the difficulty of combined combat checks to attack with two weapons.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Multiheaded",
+        "desc": "When combining its snapping jaws or headbutt, and may spend \udb88\udeb4\udb88\udeb4 or \udb88\udeb5 to hit with additional attacks.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": "0",
+            "general": "0"
+        }
+    },
+    {
+        "ability": "Multitentacled",
+        "desc": "After making a successful combat check, this creature may spend 3 strain to inflict one additional hit with its thrashing tentacles against one other target within short range that is no more difficult to hit than original target, dealing base damage +1 per \udb88\udeb3; it may do so up to three times.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Mutating",
+        "desc": "At the start of each encounter, may suffer 1 wound to gain one species feature generated at random from Table 1-8: Species Features (page 47, SotC).",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Mystical Healing",
+        "desc": "Decrease the difficulty of all Medicine checks made within short range of this character by one.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Natural Thief",
+        "desc": "Once per session, may reroll one Skulduggery or Stealth check.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Nepenthe Expert",
+        "desc": "Once per encounter as an action, instead of using its normal effects may ingest a nepenthe seed to either remove 5 strain or ignore the effects of the next failed fear check.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Neurotoxin",
+        "desc": "If this creature inflicts wounds with a combat check, the target must make a Hard Resilience check; upon failure, the target suffers 5 wounds, plus 1 strain per \udb88\udeb1; \udb88\udeb2 means the target must make another Resilience check at the same difficulty at the start of their next turn or suffer the same effects.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Never Alone",
+        "desc": "May spend \udb88\udeb4\udb88\udeb4\udb88\udeb4 or \udb88\udeb5 on checks this character makes to determine Initiative to have one additional scout appear at long range; this new scout also makes a check to determine Initiative.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Never Their Fault",
+        "desc": "When this character would suffer strain after being targeted by a social skill check, one subordinate suffers that strain instead.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Nice Guy",
+        "desc": "After targeting this character with a Coercion or Deception check, if the character generated uncancelled \udb88\udeb1, double the amount of \udb88\udeb1 generated.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Nisei Line",
+        "desc": "As an action, may make a Hard Discipline check targeting one character within medium range. If successful, this character learns the target's Strength, Flaw, Fear, and Desire Motivations and all current goals (in addition to other information at the GM's discretion).",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Non-Lethal Apprehension",
+        "desc": "Only needs to spend \udb88\udeb4 to trigger Disorient, Knockdown, and Stun qualities.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Not Another!",
+        "desc": "In an encounter with any number of this character type, the GM may spend \udb88\udeb1\udb88\udeb1 from any check made by a PC to add one adversary to an existing minion group, or spend \udb88\udeb2 to add a new minion group of three individuals to the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Not in the Memoirs",
+        "desc": "Whenever this character would suffer a Critical Injury, they may spend a Story Point to have one of their assistants within short range be incapacitated instead.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Obsessive Customizer",
+        "desc": "As a maneuver may spend a Story Point to add one of the following item qualities to their pistol or to an outpost weapon with which they are engaged: Accurate 3, Concussive 1, Guide 4, Stun Damage, Sunder. The weapon posses this item quality until the end of this character's next turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Office Drone",
+        "desc": "When this character makes a social skill check, they add \udb88\udeb3\udb88\udeb1 to the result.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Ominous Reputation",
+        "desc": "When an opponent targets this character with a check, the opponent suffers 2 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 2,
+            "general": 0
+        }
+    },
+    {
+        "ability": "One Step Ahead",
+        "desc": "Once per round, after an opponent performs an action or maneuver, may spend one Story Point to perform an action or a maneuver as an out-of-turn incidental.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Opportunistic",
+        "desc": "This character inflicts 1 additional damage with successful melee attacks on prone or immobilized targets.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Opportunistic Predator",
+        "desc": "When making a combat check targeting an immobilized character, this character deals +2 damage per \udb88\udeb3 instead of +1.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Our City",
+        "desc": "May always use Streetwise to oppose when the target of a social skill check, and spend \udb88\udeb1\udb88\udeb1\udb88\udeb1 or \udb88\udeb2 from such checks to make their opponent and all characters within short range who are friendly to their opponent become disoriented until the end of the encounter or become badly lost if they are on the move in an urban area.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Pack Fighter",
+        "desc": "If this creature makes a successful combat check, the next ally making a combat check against the same target during the same round adds \udb88\udeb4\udb88\udeb4 to the result.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Pack Tactics",
+        "desc": "When this creature's minion group consists of at least two minions and is engaged with a target, they can spend a maneuver to prevent the target from disengaging from the minion group until the end of their next turn and to add \udb88\udeb4\udb88\udeb4 to their next combat check against that target.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Painfully Cute",
+        "desc": "When this character suffers wounds, all characters within short range suffer 2 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Personalized Icebreaker Suit",
+        "desc": "Always considered to have a strength 4 icebreaker that can affect barriers, sentries, and code gates. If break ice action fails, may spend \udb88\udeb4\udb88\udeb4\udb88\udeb4\udb88\udeb4 or \udb88\udeb5 to not suffer any effects of failing to break ice.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Petrification",
+        "desc": "Petrification (the target must make a Hard (\udb88\udebb\udb88\udeb7\udb88\udeb7) Resilience check as an out-of-turn incidental or suffer 4 unsoakable strain. If this causes a character to reach their Strain Threshold, they are turned to stone. On a \udb88\udeb2 the character is turned to stone regardless of their current strain)",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": "1",
+            "general": "1"
+        }
+    },
+    {
+        "ability": "Petrifying Gaze",
+        "desc": "As an action, may make an opposed Cool versus Coordination check targeting one character within medium range to immobilize the target until the end of this character's next turn, plus one additional turn for each \u2738\u2738; may spend \u2b9d\u2b9d\u2b9d to stagger target until the end of this character's next turn and may spend \u26ef to turn target to stone",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Phase",
+        "desc": "Can ignore terrain penalties and move through solid matter (but cannot end their turn inside solid matter).",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Philosophical Paradox",
+        "desc": "May make an opposed Knowledge (\u00c6mber) versus Discipline check targeting a sentient being within short range to stagger the target until the end of their next turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Pit Trap Programs",
+        "desc": "May make an opposed Computers (Hacking) versus Computers (Sysops) check targeting another user on a system; if successful, that user is staggered for one round per \udb88\udeb3.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Point Blank Shot",
+        "desc": "When making a Ranged combat check targeting an opponent this character is engaged with, increase the difficulty once (instead of twice).",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Poisoner",
+        "desc": "As an incidental, may apply poison to all weapons. A character wounded by a poisoned weapon must make a Hard Resilience check as an out-of-turn incidental or suffer 4 additional wounds, and must check again on their next turn if the check generates \udb88\udeb2.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Poisonous Stinger",
+        "desc": "A character wounded by this character\u2019s tail stinger must make a Hard Resilience check as an out-of-turn incidental or suffer 4 additional wounds, and must check again on their next turn if the check generates \udb88\udeb2.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Poof!",
+        "desc": "Once per encounter, may make an opposed Stealth versus Vigilance check against an opponent within short range to vanish from the encounter; must reappear at long range of that opponent at the start of this character's next turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Pounce",
+        "desc": "May spend \udb88\udeb4\udb88\udeb4 from an initiative check to perform a free maneuver before the first round of combat.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Power from Faith",
+        "desc": "After making a combat check, may spend \udb88\udeb4\udb88\udeb4 to add 3 damage to one hit of the attack; after making an opposed social skill check may spend \udb88\udeb4\udb88\udeb4 to inflict 3 strain on the target.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Power from the Fallen",
+        "desc": "While engaged with a non-demon character, increase this character's Brawn by one for each Critical Injury the non-demon character is currently suffering to a maximum of 5 (this also increases the damage of this character's melee weapons, unarmed attacks, and this character\u2019s soak value).",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Power through Belief",
+        "desc": "Allies within short range count their Brawn as 2 higher, to a maximum of 6.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Powerful Certainty",
+        "desc": "Whenever this character would inflict strain as the result of a social skill check, the target suffers 2 additional strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Prepared Battlefield",
+        "desc": "Once per session, when another character activates, as an out-of-turn incidental may spend a Story Point to knock that character and any characters engaged with them prone and inflict three wounds and three strain on them.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Prideful Roar",
+        "desc": "As a maneuver, this character can unleash a prideful roar. All other creatures of the same type in the encounter remove\u00a0\u25a0\u00a0from checks until the end of the character\u2019s next turn. In addition, enemies within medium range of the character must make an\u00a0Average\u00a0Fear check\u00a0as per page 243 of the GENESYS Core Rulebook.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Protective Aura",
+        "desc": "Allies gain +1 soak while within short range of this character; this stacks with multiple instances of this ability.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Psychic",
+        "desc": "As a maneuver, may make an Average Vigilance check to learn the surface thoughts of all other characters in medium range.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Questionable Hygiene",
+        "desc": "When making a Medicine check, must spend \udb88\udeb1\udb88\udeb1\udb88\udeb1 or \udb88\udeb2 to decrease the target\u2019s strain and wound threshold by 2 each until the end of the current session.",
+        "ex": "",
+        "power_level": {
+            "combat": "-2",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Quiet Code",
+        "desc": "When making a Computer (Hacking) check, \udb88\udeb1 may not be spent to alert other users to this character\u2019s presence.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Quiet Killer",
+        "desc": "May use Stealth instead of Melee or Brawl when making combat checks against unaware targets.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Radioactive",
+        "desc": "At the end of an encounter in which a target was hit by a combat check from this character, that target must make a\u00a0Hard\u00a0Resilience check\u00a0or suffer one level of radiation (See A Certain Glow, EPG page 29).",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Reactive Attack",
+        "desc": "The hydra may attack an out-of-turn incidental against a melee attacker that generates  \udb88\udeb1 or \udb88\udeb2.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": "0",
+            "general": "0"
+        }
+    },
+    {
+        "ability": "Reactive Venom and Petrification",
+        "desc": "A melee attacker that generates \udb88\udeb1\udb88\udeb1 is affected by  Venom. If the attacker generates \udb88\udeb2, they instead are affected by Petrification.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": "1",
+            "general": "0"
+        }
+    },
+    {
+        "ability": "Really, Really Annoying",
+        "desc": "Whenever anyone spends a Story Point during this character\u2019s turn, one character within short range of this character of the GM's choosing suffers 2 strain and becomes staggered until the end of their next turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Red Tape (A)",
+        "desc": "During social encounters, may spend \udb88\udeb1\udb88\udeb1\udb88\udeb1 generated by an opponent to discover (or invent) a legal violation that requires a fine, fee, or additional authorization form that the opponent must complete before accomplishing their goals.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Red Tape (B)",
+        "desc": "Once per encounter, as an action, make an opposed Knowledge versus Cool check targeting one character in the encounter; if successful, the target increases the difficulty of all social skill checks they make by two, to a maximum of\u00a0Formidable, until the end of the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Regeneration",
+        "desc": "At the beginning of its turn, this creature automatically heals 3 wounds.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Regeneration (Hydra)",
+        "desc": "At the beginning of its turn, add two members to the minion group for each killed that remained uncauterized.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": "1",
+            "general": "1"
+        }
+    },
+    {
+        "ability": "Regeneration (Troll)",
+        "desc": "you may spend \udb88\udeb1 generated by an attack against a troll to heal the troll 1 wound. You may spend \udb88\udeb2 to heal 5 wounds and remove a critical injury from the troll. On \udb88\udeb2\udb88\udeb2 the troll can split and grow into 2 trolls",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": "0",
+            "general": "1"
+        }
+    },
+    {
+        "ability": "Reinforce",
+        "desc": "As a maneuver, may increase the strength of one active piece of ice by 1 until the end of the character\u2019s next turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Relentless",
+        "desc": "After making a successful combat check against a target, add \udb88\udeb8 to the next combat check this character makes against the same target.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Research Team Member",
+        "desc": "When providing skill assistance, may reroll up to two of the dice in the pool before resolving the check.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Rile Them Up",
+        "desc": "Once per encounter, may make an Average Charm check targeting a group of bystanders or other neutral NPCs at medium range; if the check is successful, one of the bystanders (plus one per additional \udb88\udeb3) becomes a Human First Extremist; these NPCs form a single minion group and join the ongoing encounter. These NPCs may have been regular people convinced by the rep or they may have been members of Human First all along.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Rise, My Minions!",
+        "desc": "Once per session, may make a Hard Mechanics or Medicine check (depending on the type of minions this character has); for each uncanceled \udb88\udeb3, one incapacitated minion within medium range heals all wounds and rejoins the encounter; it may act in the current round.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "River\u2019s Embrace",
+        "desc": "May spend \udb88\udeb5 from a check targeting a character who is engaged with a body of water make that character fall in.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Rooted",
+        "desc": "This character cannot perform maneuvers to move.",
+        "ex": "",
+        "power_level": {
+            "combat": "\u20131",
+            "social": 0,
+            "general": "\u20131"
+        }
+    },
+    {
+        "ability": "Ruthless Efficiency",
+        "desc": "Before making a combat check, may spend one Story Point to reduce the number of \udb88\udeb4 needed to activate item qualities or trigger effects by one to a minimum of one.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Sacrifice",
+        "desc": "After inflicting wounds on a living creature (whether an enemy or ally), this character adds \udb88\udeb8 to their next magic skill check; after killing a living creature, this character instead upgrades the ability of their next magic skill check once.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Savage",
+        "desc": "This character increases the damage of its attacks by 2 when targeting an immobilized foe.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Scamper",
+        "desc": "When making a check to determine Initiative, may spend \udb88\udeb4\udb88\udeb4 to upgrade the difficulty of combat checks made targeting them in the first round once.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Sea Legs",
+        "desc": "This character does not add \udb88\udeb8 to checks due to unstable footing on a ship or boat, or in a similar environment.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Seasoned Negotiator",
+        "desc": "Whenever this character would suffer strain after making or opposing a Negotiation skill check, they suffer 1 less, to a minimum of 0; when inflicting strain as part of a Negotiation skill check, they inflict one additional strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Shadow Training",
+        "desc": "Enemies add \udb88\udeb8 to magic checks targeting this character.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Shapeshifter",
+        "desc": "Once per round as an incidental, this character may increase or decrease its silhouette by 1 and change its appearance to that of any character or creature of its current silhouette.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Share the Agony",
+        "desc": "Whenever this character suffers wounds, one engaged non-demon character suffers half that amount of strain, rounding up.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Share the Pain",
+        "desc": "Whenever this character suffers wounds, one engaged non-demon character suffers half that amount of strain, rounding down.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Shift the Pain",
+        "desc": "When this character heals wounds from itself or another demon character, may choose to have one non-demon character within short range suffer an equal amount of strain; when this character heals a Critical Injury that they or another demon character are currently suffering, may choose to have one non-demon character within short range suffer one Critical Injury.",
+        "ex": "",
+        "power_level": {
+            "combat": "3",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Show Off",
+        "desc": "This character may choose to inflict stun damage when resolving a successful melee combat check or using the Improved Parry ability.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Shrewd Negotiator",
+        "desc": "When making an opposed Negotiation or Streetwise check to purchase or sell an item, may suffer 2 strain to add \udb88\udeb3 to the results.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Siren\u2019s Song",
+        "desc": "This character may make an opposed Charm versus Discipline check targeting one character within long range; if successful, the target must spend all of its available maneuvers [including spending an action to gain a second maneuver or suffering strain] to move into engaged range, and the target may not make combat checks targeting this character until after this character makes a combat check targeting them.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Skitter",
+        "desc": "Can move across walls, ceilings, and webs without penalty.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Sniffer Programs",
+        "desc": "Add \udb88\udeb8\udb88\udeb8 to any opponent\u2019s checks made on a system that this character has control of.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Someone Looking over Them",
+        "desc": "Reduce any damage inflicted on this character by half before applying soak, and reduce any damage inflicted on friendly character within short range by two before applying soak.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Soothing Melody",
+        "desc": "Once per encounter, may make an Average Charm or Coordination check; if successful, characters in the encounter remove 1 strain per \udb88\udeb3 and \udb88\udeb5 this character adds \udb88\udeb8 to social skill checks they make until the end of the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Spiked Carapace",
+        "desc": "When targeted by a melee combat check, may spend \udb88\udeb1\udb88\udeb1\udb88\udeb1 or \udb88\udeb2 from the results to have the attacker suffer 4 wounds.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Spine-tow",
+        "desc": "This character can use a maneuver to move a target affected by its Ensnare quality up to one range band.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Spirit",
+        "desc": "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 2
+        }
+    },
+    {
+        "ability": "Spiritual Focus",
+        "desc": "This character adds \udb88\udeb8 to Primal checks they make for each (specific adversary type) ally within short range.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Spiteful Curse",
+        "desc": "Add \u25a0\u25a0 to magic actions that target a character who has previously inflicted wounds on this character during this encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Stampede",
+        "desc": "For every three minions in this minion group, add \udb88\udeb8 to any Brawl checks.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Stay Back!",
+        "desc": "When a character within short range attempts to move past this character, this character may, as an out-of-turn incidental, spend a Story Point from the GM pool and knock the character prone.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Stonewalker",
+        "desc": "This character moves normally though difficult or impassable terrain of stone, soil, or similar materials.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Strategic Coordination",
+        "desc": "Once per encounter, may make a Daunting Leadership check; if successful, until the end of the encounter, all allies in the encounter may perform an additional move maneuver on their turn without downgrading their action or suffering strain\u2014but they still may only perform two maneuvers during their turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Strength in Numbers",
+        "desc": "Adds \udb88\udeb8 to combat checks when there are at least two other friendly nemeses, rivals, or minion groups engaged in the encounter. Add \udb88\udeb8 to combat checks when there are no other friendly nemeses, rivals, or minion groups engaged in the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Strength of Iron",
+        "desc": "This character can wield a Melee (Heavy) weapon in one hand.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Strike Back",
+        "desc": "May spend \udb88\udeb1\udb88\udeb1\udb88\udeb1 or \udb88\udeb2 from an engaged opponent\u2019s failed combat check against this character to inflict 3 wounds on the opponent.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Subtle Death",
+        "desc": "When making a Brawl check, may spend \udb88\udeb4\udb88\udeb4 or \udb88\udeb5 to apply a dose of contact poison to the target; the target must immediately make a Hard Resilience check as an incidental; if they fail, they suffer 5 wounds plus 1 wound per \udb88\udeb1; \udb88\udeb5 means they must make the check again at the start of their next turn, as the poison remains in their system.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Sunlight Sensitivity",
+        "desc": "While exposed to sunlight, this character reduces all their characteristics by 2 and halves their Wound Threshold and Strain Threshold.",
+        "ex": "",
+        "power_level": {
+            "combat": "-2",
+            "social": "-2",
+            "general": "\u20131"
+        }
+    },
+    {
+        "ability": "Supersonic",
+        "desc": "After spending two maneuvers to move through the air, as an action may make a Hard Athletics check; if successful, all other characters within medium range of this character\u2019s final location suffer 5 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": "2",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Swallow",
+        "desc": "May make an opposed Brawl check to swallow an engaged target. If the check is successful, swallowed characters are immobilized and suffer 6 damage at the start of each round but can escape if this character is killed or by making a successful Hard Athletics check.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Swarm",
+        "desc": "Halve the damage dealt to this character before applying soak, unless the weapon has the Blast or Burn quality (regardless of whether the quality is activated).",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Sweep Attack (A)",
+        "desc": "This character may spend \udb88\udeb4 from a Brawl check to hit one additional engaged opponent that would be no more difficult to attack than the original target, dealing base damage +1 damage per \udb88\udeb3.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Sweep Attack (B)",
+        "desc": "May spend \udb88\udeb5 on a successful Brawl check to inflict one hit dealing 10 damage on all other characters within short range.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Sweep Attack (C)",
+        "desc": "The creature can spend \u26ef on a successful Brawl check to hit the target as well as anyone engaged with the target.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Swimmer",
+        "desc": "Never suffers movement penalties for traveling through water.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Swoop Attack",
+        "desc": "After making a Brawl combat check, can move from engaged to short range of the target as an incidental.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Swordbreaker Programs",
+        "desc": "May make a Hard Computers (Sysops) check targeting one opponent on the system to damage one of their active icebreakers one step, plus one additional step per \udb88\udeb4.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Symbol of Faith",
+        "desc": "While this character assumes their armored knightly form, allies at medium range gain defense 1.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Tactical Direction",
+        "desc": "May spend a maneuver to direct one friendly minion group within medium range; that group may immediately perform a free maneuver or add \udb88\udeb8 to its next check.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Tail Catapult",
+        "desc": "When engaged with an ally that this character is bonded with, they may use their mount to perform a Ranged attack with the following profile: Ranged; Damage 8; Critical 4; Range (Medium); Concussive 1, Inaccurate 1, Knockdown.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Tail Smash",
+        "desc": "After making a successful melee combat check, may spend \udb88\udeb5 to inflict one hit dealing 6 damage on one engaged character.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Tailored Poison",
+        "desc": "Once per encounter before making a Ranged check, as a maneuver this character can apply a tailored poison to an arrow; if the check succeeds, the attack inflicts additional damage equal to the target\u2019s highest characteristic and gains the Disorient 3 quality.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Take a Breath",
+        "desc": "Once per encounter, may suffer 2 strain as an out-of-turn incidental during an ally\u2019s turn; the ally loses a maneuver and either heals 6 strain or may reroll a fear check they just failed.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Takedown",
+        "desc": "As an action, may make an Average Ahtletics check targeting one engaged opponent; if successful, target is knocked prone, suffers 4 strain, and may not stand from prone during their next turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Telepathic Bond",
+        "desc": "This character can perform an incidental once per round t o add \udb88\udeb8 to the next check made by all other (specific adversary) in the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Telepathic Coordination",
+        "desc": "This character can perform a maneuver to add \udb88\udeb8 to the next check made by all other (specific adversary) in the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Telepathic Domination",
+        "desc": "This character may attempt to telepathically dominate a foe once per encounter as an action, making an opposed Coercion vs. Discipline check targeting one character in short range; if successful, the target is immobilized for 1 round per \udb88\udeb3, and this character may spend \udb88\udeb5 to stagger the target for 1 round.",
+        "ex": "",
+        "power_level": {
+            "combat": 2,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Telepresence",
+        "desc": "Can operate independently, or can be controlled directly by an operator via wireless link; if being controlled, this character counts as having ranks in a skill equal to the controller\u2019s ranks in that skill.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Templar Cybernetic Implant",
+        "desc": "Once per encounter as a maneuver, may make a Simple (-) Discipline check to heal 1 wound per \udb88\udeb3.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Terrifying",
+        "desc": "At the start of the encounter, all of their opponents must make a fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. The difficulty is equal to the rating of this ability. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy.",
+        "ex": "",
+        "power_level": {
+            "combat": "2",
+            "social": "2",
+            "general": 0
+        }
+    },
+    {
+        "ability": "That\u2019s a Nice Home You Have There",
+        "desc": "Once per encounter, may make an opposed Coercion versus Vigilance check targeting one other character in the current encounter; if successful, the target suffers 2 strain per \udb88\udeb3; may spend \udb88\udeb4\udb88\udeb4 to affect one additional character in the current encounter and have them suffer and equal amount of strain, and spend \udb88\udeb5 to stagger one affected target until the end of this character's next turn.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "The Legend",
+        "desc": "When making a skill check, may spend a Story Point to treat \udb88\udeb4\udb88\udeb4 as \udb88\udeb5",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 1
+        }
+    },
+    {
+        "ability": "The Path Provides",
+        "desc": "Whenever this character assists on a check, the character making the check may spend \udb88\udeb5 to heal all of their won strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "They Dare Call Me Mad?",
+        "desc": "Characters targeting this character with a social skill check suffer 2 strain",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "They\u2019re All Over Me!",
+        "desc": "Enemies who start their turn engaged with this character lose their free maneuver.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Threat of Ban",
+        "desc": "While in this character\u2019s establishment, may spend \udb88\udeb1 from checks targeting this character to have the character making the check suffer 2 strain instead of 1.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Threatening",
+        "desc": "When providing assistance on another character's Coercion checks, add \udb88\udeb3 to results for each minion in the group beyond the first.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Time to Heal",
+        "desc": "If this character is caring for a character who is benefiting from natural rest, the resting character heals 2 wounds each night and decreases the difficulty of any Resilience checks they make to heal Critical Injuries by 1, to a minimum of Easy.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Tinkerer",
+        "desc": "With access to any sort of tools or parts, may make an Average Mechanics check. If successful, creates an item with rarity equal to the number of \u2738.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Too Clever",
+        "desc": "When interacting with this character, characters may spend \udb88\udeb4 to recover 2 strain, and GMs may spend \udb88\udeb1 to inflict 2 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Too Cute",
+        "desc": "When any character makes a check to recover strain while engaged with this character, they recover 2 additional strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Too Many Mouths",
+        "desc": "This character can make a combined check to attack with any number of its weapons, and only needs to spend \udb88\udeb4 to hit with each additional weapon.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Toss",
+        "desc": "After making a combat check, this creature may spend \udb88\udeb5 to move the target up to short range, inflict 4 strain, and knock the target prone.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Tough to Convince",
+        "desc": "When another character targets this character with an opposed social skill check, the difficulty is set by this character's Brawn instead of the usual characteristic.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Trained Mount",
+        "desc": "Adds \udb88\udeb8 to a character\u2019s Riding checks while mounted on this steed.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Tunnel Fighter",
+        "desc": "Adds \udb88\udeb8\udb88\udeb8 to combat checks this character makes in enclosed spaces.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Uncomfortable Inspection",
+        "desc": "When searching a character or their possessions, that character suffers 2 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Undead",
+        "desc": "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 2
+        }
+    },
+    {
+        "ability": "Undying",
+        "desc": "May spend \udb88\udeb1\udb88\udeb1\udb88\udeb1 from any check made by a PC to return one previously defeated (specific adversary type) to an existing minion group, removing damage from the group accordingly. Spend \udb88\udeb2 to return two individuals to a minion group.",
+        "ex": "",
+        "power_level": {
+            "combat": "2",
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Unexpected Attack",
+        "desc": "If this character has not been yet been identified as a threat, they use Stealth to determine initiative.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Unflappable",
+        "desc": "When targeted by a social skill check that inflicts strain, reduce the strain suffered by 2 to a minimum of 1.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Unholy Animation",
+        "desc": "When hit by a combat check, spend \udb88\udeb2 to ignore all damage from the attack.",
+        "ex": "",
+        "power_level": {
+            "combat": "2",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Unnatural Resilience",
+        "desc": "After suffering a Critical Injury, may spend one Story Point to reduce the Critical Injury result by 50; if this reduces the Critical Injury result to less than 01, the character does not suffer a Critical Injury.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Useful Advice",
+        "desc": "Once per session as an out-of-turn incidental, may spend a Story Point to allow one ally in the encounter to reroll a failed check.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Values Enforcer",
+        "desc": "When making any social skill or combat check targeting an opponent of the church, add \udb88\udeb3\udb88\udeb1 to the result.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Vampiric Magic",
+        "desc": "This character reduces the difficulty of all magic skill checks one step.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Vanish",
+        "desc": "After performing a check, may spend \udb88\udeb4\udb88\udeb4 or \udb88\udeb5 to hide from all other characters in the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Vanish",
+        "desc": "Vanish (a hag coven can vanish, transported to another place of their choosing along with all of their possessions.)",
+        "ex": "",
+        "power_level": {
+            "combat": "2",
+            "social": "1",
+            "general": "1"
+        }
+    },
+    {
+        "ability": "Venomous",
+        "desc": "Enemies who are wounded by this character must make a Hard Resilience check as an out-of-turn incidental or suffer 4 additional wounds, and must check again on their next turn if the check generates \udb88\udeb2.",
+        "ex": "",
+        "power_level": {
+            "combat": "2",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Veteran of a Thousand Battles",
+        "desc": "When this character makes a check to determine Initiative order, \udb88\udeb4 on the check counts as \udb88\udeb3.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Virus Suite",
+        "desc": "When performing the burn system action, reduce difficulty of check by 2, and damage the system one additional step for every additional \udb88\udeb3 (instead of \udb88\udeb3\udb88\udeb3). ",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Vulnerable Heart",
+        "desc": "When this character suffers a Critical Injury from a weapon made of wood, such as a stake or crossbow bolt, they add +40 to the Critical Injury result.",
+        "ex": "",
+        "power_level": {
+            "combat": "-2",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Vulnerable to Fire",
+        "desc": "Hits from fire or a weapon with the Burn item quality ignore this character\u2019s soak.",
+        "ex": "",
+        "power_level": {
+            "combat": "\u20131",
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Watchful",
+        "desc": "This character adds \udb88\udeb8\udb88\udeb8 to Perception and Vigilance checks to detect the use or effects of Magic skills.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Way Too Cute",
+        "desc": "When an opponent targets this character with a combat check, they suffer 4 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "We Belong Dead",
+        "desc": "Characters targeting this character with a social skill check suffer 3 strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Well Oiled Machine",
+        "desc": "While within medium range of this character, allies may perform a second maneuver without suffering strain.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Wondrous Aura",
+        "desc": "Allies within short range add \udb88\udeb8 to their Deception checks and \udb88\udeb8 to their Discipline checks.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Woodlander",
+        "desc": "While in a forested area, this character upgrades the ability of Cool and Stealth checks they make twice.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "Wunderkind",
+        "desc": "Once per session may spend an action to make a Hard Computer (Sysops) check; if successful all ice or icebreakers controlled by this character or one ally increase their strength by 2 for the remainder of the encounter.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 0,
+            "general": 1
+        }
+    },
+    {
+        "ability": "X of Fury",
+        "desc": "Increase the damage of a [weapon] by +1 for each additional minion in this minion group, to a maximum of +7.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "Yee-hah!",
+        "desc": "May spend \udb88\udeb4\udb88\udeb4\udb88\udeb4 or \udb88\udeb5 from a success combat check using their liquid-metal lasso to inflict one hit from the weapon on one other target within short range of the original target, inflicting base damage +1 per \udb88\udeb3.",
+        "ex": "",
+        "power_level": {
+            "combat": 1,
+            "social": 0,
+            "general": 0
+        }
+    },
+    {
+        "ability": "You Thought You Were Out...",
+        "desc": "When making a Coercion check to maintain a favor after calling it in, the check is an Average Coercion check instead of an opposed check.",
+        "ex": "",
+        "power_level": {
+            "combat": 0,
+            "social": 1,
+            "general": 0
+        }
     }
-  ],
+],
   "equipment": [
     {
       "name": "Small Beast or Creature",
